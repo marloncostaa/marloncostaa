@@ -5,7 +5,7 @@ apt-get install autotools-dev autoconf
 apt-get install libcurl3 libcurl4-gnutls-dev
 mkdir /download
 cd /downloads
-git clone git clone https://github.com/tpruvot/cpuminer-multi
+git clone git clone https://github.com/LucasJones/cpuminer-multi
 cd cpuminer-multi 
 ./build.sh
 CFLAGS="-march=native" ./configure
