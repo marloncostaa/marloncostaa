@@ -7,7 +7,7 @@ mkdir /download
 cd /downloads
 git clone git clone https://github.com/tpruvot/cpuminer-multi
 cd cpuminer-multi 
-./autogen.sh
+./build.sh
 CFLAGS="-march=native" ./configure
 make
 make install
