@@ -9,7 +9,7 @@ sudo apt-get install git make automake screen libcurl4-openssl-dev
 
 cd /opt
 
-git clone https://github.com/tpruvot/cpuminer-multi
+git clone https://github.com/wolf9466/cpuminer-multi
 
 cd cpuminer-multi
 
