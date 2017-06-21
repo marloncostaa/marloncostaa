@@ -9,7 +9,7 @@ sudo apt-get install git make automake screen libcurl4-openssl-dev
 
 cd /opt
 
-git clone https://github.com/nicehash/NiceHashMiner
+git clone https://github.com/nicehash/cpuminer-multi
 
 cd cpuminer-multi
 
