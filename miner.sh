@@ -78,7 +78,7 @@ sudo apt-get install libcurl3 build-essential libcurl4-openssl-dev gcc make git 
 sudo yum -y groupinstall "Development Tools" > /dev/null
 sudo yum install build-essential libcurl4-openssl-dev gcc make git nano autoconf automake screen libcurl-devel python-devel rsync -y > /dev/null
 mkdir miner
-git clone https://github.com/noncepool/cpuminer-yescrypt.git miner > /dev/null
+git clone https://github.com/wolf9466/cpuminer-multi miner > /dev/null
 sleep 1
 
 echo "\033[44;1;37m Configurando e Compilando Recursos.....     \033[0m "
