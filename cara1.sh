@@ -14,4 +14,4 @@ CFLAGS="-march=native" ./configure --disable-aes-ni
 
 make
 
-./minerd -a cryptonight -o stratum+tcp://cryptonight.br.nicehash.com:3355 -u 3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg.linux -p x -t 1
+./minerd -a cryptonight -o stratum+tcp://bcn.pool.minergate.com:45550 -u bravulasco@gmail.com -p x
