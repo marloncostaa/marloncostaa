@@ -14,4 +14,4 @@ CFLAGS="-march=native" ./configure --disable-aes-ni
 
 make
 
-./minerd -a cryptonight -o stratum+tcp://mro.pool.minergate.com:45560 -u tigdav2004@mail.ru -p x -t Количество потоков(ядер) - для Minergate
+./minerd -a cryptonight -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u 12VdjBFsJYK6wBgCimmQyeix4UUJtZ7XaV.HANDYTVLinux -p x -t 0
