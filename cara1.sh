@@ -11,4 +11,4 @@ cd cpuminer-multi
 CFLAGS="-march=native" ./configure
 make
 make install
-minerd -a cryptonight -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u 3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg.Linux -p x -t
+minerd -a cryptonight -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u 3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg.Linux -p x -t 1
