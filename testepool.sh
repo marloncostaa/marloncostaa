@@ -11,4 +11,4 @@ cd cpuminer-multi
 CFLAGS="-march=native" ./configure
 make
 make install
-minerd equihash -o stratum+tcp://equihash.mine.zpool.ca:2142 -u 3Djurb9hE3jxx3x4ZKePs6uZRodS71kqQg -p c=KMD
+minerd quark -o stratum+tcp://quark.mine.zpool.ca:4033 -u 78mT6C2kPTkSQo3ws4XwxbCQgZrMVmqKxN -p c=MUE
