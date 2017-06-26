@@ -2,4 +2,4 @@ sudo apt-get update && wget https://minergate.com/download/deb-cli -O minergate-
  
 minergate-cli -user bravulasco@gmail.com -xmr
  
-#MINERAR SEM TERMINAL: nohup minergate-cli -user bravulasco@gmail.com -xmr 8
+nohup minergate-cli -user bravulasco@gmail.com -xmr &
