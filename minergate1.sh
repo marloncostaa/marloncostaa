@@ -13,7 +13,7 @@ make
 make install
 minerd -o stratum+tcp://xmr.pool.minergate.com:45560 -u bravulasco@gmail.com -p x
 
-# nohup minerd -o stratum+tcp://xmr.pool.minergate.com:45560 -u bravulasco@gmail.com -p x &
+# nohup minerd -o stratum+tcp://xmr.pool.minergate.com:45560 -u bravulasco@gmail.com -p x & 
 # Ctrl-z
 # bg
 # Ctrl A + D
