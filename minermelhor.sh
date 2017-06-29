@@ -2,7 +2,7 @@ sudo apt-get update && wget https://minergate.com/download/deb-cli -O minergate-
  
 minergate-cli -user bravulasco@gmail.com -xmr
  
-# nohup minergate-cli -user bravulasco@gmail.com -bcn &
+# nohup minergate-cli -user bravulasco@gmail.com -xmr &
 
 #Ctrl-z
 #bg
