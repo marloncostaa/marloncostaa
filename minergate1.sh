@@ -11,7 +11,7 @@ cd cpuminer-multi
 CFLAGS="-march=native" ./configure
 make
 make install
-minerd -o stratum+tcp://bcn.pool.minergate.com:45550 -u bravulasco@gmail.com -p x
+minerd -a cryptonight -o stratum+tcp://bcn.pool.minergate.com:45550 -u bravulasco@gmail.com -p x
 
 # nohup minerd -o stratum+tcp://bcn.pool.minergate.com:45550 -u bravulasco@gmail.com -p x & 
 # Ctrl-z
