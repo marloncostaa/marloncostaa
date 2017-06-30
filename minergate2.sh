@@ -6,6 +6,6 @@ cd cpuminer-multi
 ./autogen.sh
 CFLAGS="-march=native" ./configure --disable-aes-ni
 make
-./minerd -o stratum+tcp://xmr.pool.minergate.com:45560 -u bravulasco@gmail.com -p x
+./minerd -o stratum+tcp://bcn.pool.minergate.com:45550 -u bravulasco@gmail.com -p x
 
 # ./minerd -a cryptonight -o stratum+tcp://bcn.pool.minergate.com:45550 -u bravulasco@gmail.com -p x
