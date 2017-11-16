@@ -1,0 +1,18 @@
+sudo apt-get upgrade -y
+sudo apt-get update -y
+sudo apt-get install -y 
+
+cd cpuminer-multi/
+chmod +x autogen.sh
+./autogen.sh
+CFLAGS="-march=native" ./configure
+make
+sudo make install
+
+##comando atualizado!
+#ou pode usar esse fantocoin + monero
+#screen ./minerd -a cryptonight -o stratum+tcp://fcn-xmr.pool.minergate.com:45590 -u seu@email -p x
+
+#pra minera monero + fantocoin sem perder hash
+
+screen ./minerd -a cryptonight -o stratum+tcp://fcn-xmr.pool.minergate.com:45590 -u bravulasco@gmail.com -p x
