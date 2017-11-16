@@ -3,7 +3,7 @@ sudo apt-get update -y
 sudo apt-get install -y 
 
 #se precisar instalar o GIT sudo apt-get install git
-#dependencias sudo apt-get install build-essential autotools-dev autoconf libcurl3 libcurl4-gnutls-dev
+sudo apt-get install build-essential autotools-dev autoconf libcurl3 libcurl4-gnutls-dev -y
 
 git clone https://github.com/wolf9466/cpuminer-multi
 
